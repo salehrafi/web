@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+           
+        }
+        .color-change{
+            color: orange;
+        }
+        .half-width{
+            
+            width: 40%;
+            float: left;
+            padding: 5%;
+        }
+        .half-width img{
+            height: 70%;
+            width: 100%;
+        }
+        .half-width a{
+            text-decoration: none;
+            height: 5%;
+            width: 15%;
+            background-color: orange;
+            border-radius: 4px;
+            padding: 10px 20px;
+            color: white;
+            background-image: linear-gradient(45deg, tomato, orange);
+        }
+        body h1{
+            padding: 0;
+            margin: 0;
+            font-size: 50px;
+        }
+        .section-one h3{
+            margin-top: 20px;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .section-two h3{
+            margin-top: 20px;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        
+        .section-one p{
+            margin-bottom: 40px;
+        }
+        .section-two p{
+            margin-bottom: 40px;
+        }
+
+        
+        nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 20px;
+            padding-left: 50%;
+            
+            
+            
+        }
+        nav ul li{
+            list-style-type: none;
+            display: inline-block;
+            font-weight: bold;
+            padding: 10px;
+            height: 10px;
+            width: 130px;
+            padding-left: 5px;
+        }
+        nav ul li a:hover{
+            color: #ea1538;
+            transition: .3s;
+        }
+        nav ul li a{
+            text-decoration: none;
+            height: 5%;
+            width: 15%;
+            background-color: orange;
+            border-radius: 4px;
+            padding: 10px 20px;
+            color: white;
+            background-color: rgba(15, 10, 4, 0.884);
+        }
+       
+
+    </style>
+</head>
+
+
+<body>
+<!--Banner-->
+    <nav>
+        <div class="banner">
+        <ul>
+            <li><a href="#">GO HOME</a></li>
+            <li><a href="#">ABOUT ME</a></li>
+            <li><a href="#">PORTFOLIO</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+           
+           
+        </div>
+    </nav>
+
+
+
+    <section class="section-one">
+        <div class="half-width">
+            <h1>WELCOME TO</h1>
+            <h1><span class="color-change">ARIF'S  </span>WEBSITE</h1>
+            <h3>WORLD CLASS WEB DEVELOPER</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, voluptas quia. Aspernatur incidunt accusamus non tempore, quos facilis ea suscipit, fugiat debitis cum repudiandae et!</p>
+            <a href="#" target="_blank">HIRE ME</a>
+        </div>
+    
+        <div class="half-width">
+            <img src="pic.png">
+        </div>
+    </section>
+    
+
+
+<!--SECTION TWO-->
+
+
+    <section class="section-two">
+        <div class="half-width">
+            <img src="pic.png">
+        </div>
+        <div class="half-width">
+            <h1>DREAM <span class="color-change">BIG!</h1>
+            <h3>FULFIL YOUR DREAM WITH US</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium a, corporis dolorem molestiae nemo voluptatem tenetur, recusandae, sed beatae sequi eaque saepe aliquam fugit nam.</p>
+            <a target="_blank" href="#">DOWNLOAD RESUME</a>
+        </div>
+
+    </section>
+  
+</body>
+</html>
